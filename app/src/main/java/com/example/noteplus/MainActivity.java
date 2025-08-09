@@ -17,6 +17,7 @@ import com.example.noteplus.activities.NoteFormActivity;
 import com.example.noteplus.adapter.NoteAdapter;
 import com.example.noteplus.db.NoteDatabaseHelper;
 import com.example.noteplus.model.Note;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import com.example.noteplus.R;
@@ -56,8 +57,10 @@ public class MainActivity extends AppCompatActivity {
         });
         recyclerView.setAdapter(adapter);
 
-        FloatingActionButton fabAddNote = findViewById(R.id.fabAddNote);
-        fabAddNote.setOnClickListener(v -> {
+//        FloatingActionButton fabAddNote = findViewById(R.id.fabAddNote);
+        ExtendedFloatingActionButton fab = findViewById(R.id.fab);
+
+        fab.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, NoteFormActivity.class);
             noteFormLauncher.launch(intent);
         });

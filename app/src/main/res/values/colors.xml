@@ -14,4 +14,15 @@
     <color name="gradient_start">#E91E63</color>
     <color name="gradient_end">#AD1457</color>
 
+    <!-- Couleurs principales -->     <!-- Vert foncé -->
+    <color name="colorSecondary">#FF9800</color>        <!-- Orange chaleureux -->
+    <color name="colorSecondaryDark">#F57C00</color>    <!-- Orange foncé -->
+
+    <!-- Couleurs de texte -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Fond général -->
+    <color name="backgroundColor">#FAFAFA</color>
+
 </resources>
