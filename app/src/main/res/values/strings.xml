@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NotePlus</string>
+    <string name="titre_note">Titre de la note</string>
+    <string name="date">Date</string>
+    <string name="ajout_note">Ajouter une note</string>
+    <string name="titre">Titre</string>
+    <string name="contenu_note">Contenu de la note</string>
+    <string name="modifier">Modifier</string>
+    <string name="supprimer">Supprimer</string>
 </resources>

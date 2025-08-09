@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_add_note"
+        android:title="Ajouter"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_sort_date"
+        android:title="Trier par date" />
+
+    <item
+        android:id="@+id/menu_sort_title"
+        android:title="Trier par titre" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:title="Partager"
+        app:showAsAction="ifRoom" />
+
+</menu>
+
