@@ -39,7 +39,8 @@
             android:id="@+id/buttonPickDateTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choisir" />
+            android:text="Choisir"
+            android:textColorLink="#E91E63" />
     </LinearLayout>
 
     <Button
